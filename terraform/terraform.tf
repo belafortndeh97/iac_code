@@ -8,7 +8,7 @@ terraform {
 
   backend "s3" {
     bucket = "terraform-state-file-aosnote"
-    key    = "terraform.tfstate.dev"
+    key    = "terraform.tfstate"
     region = "us-east-2"
   }
 
